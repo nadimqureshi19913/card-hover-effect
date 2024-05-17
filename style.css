@@ -1,0 +1,109 @@
+*
+{
+  transition:all 0.8s ease-in-out;
+}
+body
+{
+  background:white;
+ text-align:center;
+  margin-left:40%;
+  margin-top:5%;
+}
+.card-container
+{
+  background:black;
+  width:300px;
+  height:350px;
+  position:relative;
+  font-family:calibri;
+  border-radius:10px;
+  box-shadow:0 5px 10px rgba(0,0,155,0.5);
+  overflow:hidden;
+  
+}
+.card
+{
+  height:350px;
+  width:300px;
+ position:absolute;
+  text-align:center;
+  
+}
+.card-container:hover .card
+{
+  height:300px;
+}
+.card-title
+{
+  color:white;
+  text-align:center;
+  padding:10px;
+   width:100%;
+   box-sizing:border-box;
+  position:absolute;
+  bottom:0px;
+  opacity:1;
+   
+}
+.card-container:hover .card-title
+{
+  bottom:35px;
+  opacity:0px;
+  color:black;
+}
+.card-body
+{
+  background:rgba(0,0,0,0.8);
+  position:relative;
+  text-align:center;
+ height:100%;
+  width:100%;
+  
+}
+.logo
+{
+  height:90px;
+  width:90px;
+  left:35%;
+  top:50px;
+  position:absolute;
+  background:#fff;
+  text-align:center;
+  border-radius:100%;
+  padding-top:20px;
+  box-sizing:border-box;
+  }
+.logo img
+{
+  width:70%;
+  max-width:90px;
+  }
+.description
+{
+  font-size:15px;
+  top:120px;
+  padding:10px;
+  margin-left:30px;
+  
+  text-align:justify;
+  position:absolute;
+  opacity:0;
+}
+.card-container:hover .logo
+{
+  top:-10px;
+  height:400px;
+  width:300px;
+  left:0%;
+ padding-top:40px;
+  border-radius:0%;
+  
+  
+}
+.card-container:hover .description
+{
+  opacity:1;
+  background:yellow;
+  font-size:15px;
+  border-radius:10px;
+}
